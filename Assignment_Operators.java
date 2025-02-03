@@ -8,5 +8,6 @@ public class Assignment_Operators {
         System.out.println(n2/=n1);
         System.out.println(n2^=n1);
         System.out.println(n2%=n1);
+        System.out.println(n3);
     }
 }
