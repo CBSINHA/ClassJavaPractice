@@ -8,6 +8,7 @@ public class Stringbuilder_class {
         sb.append(a);
         System.out.println(sb.insert(5,"XD"));
         sb.replace(5,7,"Bleh:P");
+        sb.delete(1,5);
         System.out.println(sb.toString());
     }
 }
