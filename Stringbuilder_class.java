@@ -6,7 +6,8 @@ public class Stringbuilder_class {
         sb.reverse();
         int a=123;
         sb.append(a);
-        sb.insert(5,"XD");
+        System.out.println(sb.insert(5,"XD"));
+        sb.replace(5,7,"Bleh:P");
         System.out.println(sb.toString());
     }
 }
