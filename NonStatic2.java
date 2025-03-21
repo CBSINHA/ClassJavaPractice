@@ -1,8 +1,9 @@
 public class NonStatic2 {
     int var=200;
+    static int var1=20;
     class Inner{
         void print(){
-            System.out.println("Non static variable: "+var);
+            System.out.println("Non static variable: "+var+"\nNon static variable: "+var1);
         }
     }
     public static void main(String[] args) {
