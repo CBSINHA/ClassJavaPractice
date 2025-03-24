@@ -7,5 +7,8 @@ public class ExceptionHandling {
         catch(Exception e){
             System.out.println("Out of bounds element accessed");
         }
+        finally{
+            System.out.println("Execution completion");
+        }
     }
 }
