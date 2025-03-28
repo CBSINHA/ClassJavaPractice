@@ -1,8 +1,8 @@
 import java.util.*;
-class exception3 {
+class Exception {
     static String mes;
 }
-    class CustomException extends exception3{
+    class CustomException extends Exception{
         CustomException(String message){
             mes=message;
         }
