@@ -5,5 +5,7 @@ class GenericCollection{
         names.add("Shashank");
         names.add("Sinha");
         System.out.println(names);
+        names.set(0,"One");
+        System.out.println(names.get(0));
     }
 }
