@@ -9,5 +9,10 @@ public class HashMapProgram {
         System.out.println("Employee with id 100: "+employees.get(100));
         employees.remove(101);
         System.out.println(employees);
+        for(var entry:employees.entrySet()){//.entrySet to deal with both key and Value pairs
+            System.out.println("ID: "+entry.getKey()+"\t\tName: "+entry.getValue());
+        }
+        var str=10;
+        System.out.println(str);
     }
 }
