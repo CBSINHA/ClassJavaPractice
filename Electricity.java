@@ -1,7 +1,6 @@
 import java.util.*;
 public class Electricity {
     public static void main(String[] args) {
-   Scanner sc=new Scanner(System.in);
    int n=sc.nextInt();
    Double cost=0.0;
    if(n<=50)cost=n*0.5;
